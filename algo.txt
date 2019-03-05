@@ -1,0 +1,54 @@
+ALGORITHME test 
+VAR  
+     g[2]|t[20]|z[10]|s: entier;
+     m : reel;
+     j|str|x : chaine;
+     str2: chaine;
+     k|i : entier;
+
+DEBUT
+ s <-- m + m ; 
+// s <--2+m;
+ s<--m+2+m;
+ s<--2+2+5+g;
+ s<--2/g[1]+t[10];
+ s<--2;
+ s<--t[1]/0;
+
+
+// boucles imbriquees
+ pour c<--1 jusque 5
+ faire
+     g <--2;
+     pour i<--5 jusque 10
+     faire
+        k<--i*2;
+        
+         faire
+             s<--2;
+         si (s=5)
+     fait
+ fait
+// fin boucles imbriquees
+
+   /* 
+   ceci 
+   est un 
+   commentaire
+    */
+   pour i<--1 jusque 5
+    faire
+      str<--2+m;
+    fait
+
+ // si imbriquees
+  faire
+      str<--" compil ";
+       faire
+          k <-- 3;
+      si(m>9)
+     i<--1;
+  si (x>=s)
+// fin si imbriquees
+
+FIN
